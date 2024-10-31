@@ -1,0 +1,36 @@
+unit Unit7;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, sButton,
+  Vcl.OleCtrls, SHDocVw;
+
+type
+  TForm7 = class(TForm)
+    WebBrowser1: TWebBrowser;
+    sButton1: TsButton;
+    procedure sButton1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form7: TForm7;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit2, Unit1;
+
+procedure TForm7.sButton1Click(Sender: TObject);
+begin
+zag.Show;
+Form7.Close;
+end;
+
+end.

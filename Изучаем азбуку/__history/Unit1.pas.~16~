@@ -1,0 +1,100 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls,
+  Vcl.Imaging.jpeg, Vcl.Menus, sSkinManager, Vcl.MPlayer;
+
+type
+  Tzag = class(TForm)
+    Image1: TImage;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    MainMenu1: TMainMenu;
+    N1: TMenuItem;
+    N2: TMenuItem;
+    N3: TMenuItem;
+    N5: TMenuItem;
+    sSkinManager1: TsSkinManager;
+    N4: TMenuItem;
+    N6: TMenuItem;
+    N7: TMenuItem;
+    MediaPlayer1: TMediaPlayer;
+    procedure Button1Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure N2Click(Sender: TObject);
+    procedure N3Click(Sender: TObject);
+    procedure N6Click(Sender: TObject);
+    procedure N7Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  zag: Tzag;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit2, Unit3, Unit6, Unit7, Unit8;
+
+procedure Tzag.Button1Click(Sender: TObject);
+begin
+Form3.Show;
+zag.Hide;
+end;
+
+procedure Tzag.Button2Click(Sender: TObject);
+begin
+Form7.Show;
+ zag.Hide;
+end;
+
+procedure Tzag.Button3Click(Sender: TObject);
+begin
+close;
+end;
+
+
+
+procedure Tzag.FormShow(Sender: TObject);
+begin
+nachalo.ShowModal;
+end;
+
+
+procedure Tzag.N2Click(Sender: TObject);
+begin
+Form7.Show;
+Form7.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'я€€.htm');
+end;
+
+
+procedure Tzag.N3Click(Sender: TObject);
+begin
+Form8.Show;
+Form8.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'ѕравило.htm');
+end;
+
+
+procedure Tzag.N6Click(Sender: TObject);
+begin
+MediaPlayer1.FileName := ExtractFilePath(Application.ExeName) + 'песн€.mp3'; // «амените '»м€‘айла' на им€ вашего музыкального файла
+  MediaPlayer1.Open;
+  MediaPlayer1.Play;
+end;
+
+procedure Tzag.N7Click(Sender: TObject);
+begin
+MediaPlayer1.Stop;
+end;
+
+end.

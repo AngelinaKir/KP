@@ -1,0 +1,39 @@
+unit Unit2;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ComCtrls, Vcl.ExtCtrls, Vcl.StdCtrls,
+  Vcl.Imaging.jpeg, Vcl.Imaging.pngimage;
+
+type
+  Tnachalo = class(TForm)
+    ProgressBar1: TProgressBar;
+    Timer1: TTimer;
+    Image1: TImage;
+    procedure Timer1Timer(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  nachalo: Tnachalo;
+
+implementation
+
+{$R *.dfm}
+
+procedure Tnachalo.Timer1Timer(Sender: TObject);
+begin
+if ProgressBar1.Position<ProgressBar1.Max then
+ProgressBar1.Position:=progressBar1.Position+10 else
+begin
+Timer1.Enabled:=False;
+close;
+end;
+end;
+
+end.

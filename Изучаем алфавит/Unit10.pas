@@ -1,0 +1,96 @@
+unit Unit10;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ExtCtrls, StdCtrls;
+
+type
+  TForm10 = class(TForm)
+    Image1: TImage;
+    procedure FormCreate(Sender: TObject);
+    procedure ImageClick(Sender: TObject);
+  private
+    { Private declarations }
+    procedure LoadImages;
+    procedure ShuffleImages;
+  public
+    { Public declarations }
+  end;
+
+var
+  Form10: TForm10;
+  Images: array of TImage;
+  SelectedImage: TImage;
+  LastSelectedImage: TImage;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm10.FormCreate(Sender: TObject);
+begin
+  LoadImages;
+  ShuffleImages;
+end;
+
+procedure TForm10.LoadImages;
+var
+  i: Integer;
+begin
+  SetLength(Images, 8); // Assuming you have 8 images
+  for i := 0 to High(Images) do
+  begin
+    Images[i] := TImage.Create(Self);
+    Images[i].Parent := Self;
+    Images[i].Width := 100;
+    Images[i].Height := 100;
+    Images[i].Top := 50 + (i div 4) * 120;
+    Images[i].Left := 50 + (i mod 4) * 120;
+    Images[i].Picture.LoadFromFile('images\image' + IntToStr(i + 1) + '.jpg'); // Load your images
+    Images[i].OnClick := ImageClick;
+  end;
+end;
+
+procedure TForm10.ShuffleImages;
+var
+  i, j: Integer;
+  Temp: TImage;
+begin
+  Randomize;
+  for i := High(Images) downto 1 do
+  begin
+    j := Random(i + 1);
+    Temp := Images[i];
+    Images[i] := Images[j];
+    Images[j] := Temp;
+  end;
+end;
+
+procedure TForm10.ImageClick(Sender: TObject);
+var
+  ClickedImage: TImage;
+begin
+  ClickedImage := TImage(Sender);
+  if ClickedImage = SelectedImage then
+  begin
+    // Images match, hide them
+    ClickedImage.Visible := False;
+    SelectedImage.Visible := False;
+    SelectedImage := nil;
+  end
+  //else
+  //begin
+    // Images don't match, flip them back
+    //if Assigned(SelectedImage) then
+    //begin
+      //SelectedImage.Picture := nil;
+      //LastSelectedImage.Picture := nil;
+    end;
+    //SelectedImage := ClickedImage;
+    //LastSelectedImage := ClickedImage;
+   //ClickedImage.Picture.LoadFromFile('картинки' + IntToStr(Images.IndexOf(ClickedImage) + 1) + '.jpg');
+  //end;
+
+end.

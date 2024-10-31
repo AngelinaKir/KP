@@ -1,0 +1,47 @@
+unit Unit4;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, MMSystem,
+  Vcl.Imaging.jpeg, Vcl.Imaging.pngimage, Vcl.MPlayer, Vcl.Buttons,
+  Vcl.OleCtrls, SHDocVw, sButton;
+
+type
+  TForm4 = class(TForm)
+    WebBrowser1: TWebBrowser;
+    sButton1: TsButton;
+    ComboBox1: TComboBox;
+    MediaPlayer1: TMediaPlayer;
+    sButton2: TsButton;
+    procedure sButton1Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form4: TForm4;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit3, Unit5;
+
+
+procedure TForm4.FormCreate(Sender: TObject);
+begin
+//sComboBox1.Items.Add('');
+end;
+
+procedure TForm4.sButton1Click(Sender: TObject);
+begin
+Form3.Show;
+close;
+end;
+
+end.

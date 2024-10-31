@@ -1,0 +1,26 @@
+program Project1;
+
+uses
+  Vcl.Forms,
+  Unit1 in 'Unit1.pas' {zag},
+  Unit2 in 'Unit2.pas' {nachalo},
+  Unit3 in 'Unit3.pas' {Form3},
+  Unit4 in 'Unit4.pas' {Form4},
+  Unit7 in 'Unit7.pas' {Form7},
+  Unit8 in 'Unit8.pas' {Form8},
+  Unit9 in 'Unit9.pas' {Form9};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(Tzag, zag);
+  Application.CreateForm(Tnachalo, nachalo);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm4, Form4);
+  Application.CreateForm(TForm7, Form7);
+  Application.CreateForm(TForm8, Form8);
+  Application.CreateForm(TForm9, Form9);
+  Application.Run;
+end.

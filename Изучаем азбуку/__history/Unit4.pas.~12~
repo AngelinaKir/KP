@@ -1,0 +1,98 @@
+unit Unit4;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, MMSystem,
+  Vcl.Imaging.jpeg, Vcl.Imaging.pngimage, Vcl.MPlayer, Vcl.Buttons,
+  Vcl.OleCtrls, SHDocVw, sButton;
+
+type
+  TForm4 = class(TForm)
+    WebBrowser1: TWebBrowser;
+    sButton1: TsButton;
+    ComboBox1: TComboBox;
+    MediaPlayer1: TMediaPlayer;
+    sButton2: TsButton;
+    procedure sButton1Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure sButton2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form4: TForm4;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit3, Unit5;
+
+
+procedure TForm4.FormCreate(Sender: TObject);
+begin
+ ComboBox1.Items.Add('А.mp3');
+ ComboBox1.Items.Add('Б.mp3');
+ ComboBox1.Items.Add('В.mp3');
+ ComboBox1.Items.Add('Г.mp3');
+ ComboBox1.Items.Add('Д.mp3');
+ ComboBox1.Items.Add('Е.mp3');
+ ComboBox1.Items.Add('Ё.mp3');
+ ComboBox1.Items.Add('Ж.mp3');
+ ComboBox1.Items.Add('З.mp3');
+ ComboBox1.Items.Add('И.mp3');
+ ComboBox1.Items.Add('Й.mp3');
+ ComboBox1.Items.Add('К.mp3');
+ ComboBox1.Items.Add('Л.mp3');
+ ComboBox1.Items.Add('М.mp3');
+ ComboBox1.Items.Add('Н.mp3');
+ ComboBox1.Items.Add('О.mp3');
+ ComboBox1.Items.Add('П.mp3');
+ ComboBox1.Items.Add('Р.mp3');
+ ComboBox1.Items.Add('С.mp3');
+ ComboBox1.Items.Add('Т.mp3');
+ ComboBox1.Items.Add('У.mp3');
+ ComboBox1.Items.Add('Ф.mp3');
+ ComboBox1.Items.Add('Х.mp3');
+ ComboBox1.Items.Add('Ц.mp3');
+ ComboBox1.Items.Add('Ч.mp3');
+ ComboBox1.Items.Add('Ш.mp3');
+ ComboBox1.Items.Add('Щ.mp3');
+ ComboBox1.Items.Add('Ъ.mp3');
+ ComboBox1.Items.Add('Ы.mp3');
+ ComboBox1.Items.Add('Ь.mp3');
+ ComboBox1.Items.Add('Э.mp3');
+ ComboBox1.Items.Add('Ю.mp3');
+ ComboBox1.Items.Add('Я.mp3');
+end;
+
+procedure TForm4.sButton1Click(Sender: TObject);
+begin
+Form3.Show;
+close;
+PlaySound('клик.wav', 0, SND_ASYNC);
+end;
+
+procedure TForm4.sButton2Click(Sender: TObject);
+begin
+ ComboBox1.ItemIndex := SelectedSound;
+  // Проверяем, что индекс находится в допустимом диапазоне для ComboBox
+  if (ComboBox1.ItemIndex >= 0) and (ComboBox1.ItemIndex < ComboBox1.Items.Count) then
+  begin
+    // Устанавливаем файл для воспроизведения
+    MediaPlayer1.FileName := ComboBox1.Items[ComboBox1.ItemIndex];
+    // Открываем файл
+    MediaPlayer1.Open;
+    // Воспроизводим файл
+    MediaPlayer1.Play;
+  end
+  else
+    ShowMessage('Ошибка: Неверный индекс звука');
+end;
+
+end.

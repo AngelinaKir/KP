@@ -1,0 +1,37 @@
+unit avtor;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, sButton,  MMSystem,
+  Vcl.OleCtrls, SHDocVw;
+
+type
+  TForm7 = class(TForm)
+    WebBrowser1: TWebBrowser;
+    sButton1: TsButton;
+    procedure sButton1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form7: TForm7;
+
+implementation
+
+{$R *.dfm}
+
+uses  glavnaya;
+
+
+procedure TForm7.sButton1Click(Sender: TObject);
+begin
+Form7.Close;
+PlaySound('клик.wav', 0, SND_ASYNC);
+end;
+
+end.

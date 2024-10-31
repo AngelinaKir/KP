@@ -1,0 +1,41 @@
+unit Unit4;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls,
+  Vcl.Imaging.jpeg, Vcl.Imaging.pngimage, Vcl.MPlayer, Vcl.Buttons;
+
+type
+  TForm4 = class(TForm)
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form4: TForm4;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit3, Unit5;
+
+procedure TForm4.Button1Click(Sender: TObject);
+begin
+Form3.Show;
+close;
+end;
+
+procedure TForm4.Button2Click(Sender: TObject);
+begin
+Form5.Show;
+close;
+end;
+
+end.

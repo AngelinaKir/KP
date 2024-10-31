@@ -1,0 +1,342 @@
+unit Unit3;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage, Vcl.ExtCtrls,
+  Vcl.Buttons, Vcl.StdCtrls;
+
+type
+  TForm3 = class(TForm)
+    Image1: TImage;
+    SpeedButton1: TSpeedButton;
+    SpeedButton2: TSpeedButton;
+    SpeedButton3: TSpeedButton;
+    SpeedButton4: TSpeedButton;
+    SpeedButton5: TSpeedButton;
+    SpeedButton6: TSpeedButton;
+    SpeedButton7: TSpeedButton;
+    SpeedButton8: TSpeedButton;
+    SpeedButton9: TSpeedButton;
+    SpeedButton10: TSpeedButton;
+    SpeedButton11: TSpeedButton;
+    SpeedButton12: TSpeedButton;
+    SpeedButton13: TSpeedButton;
+    SpeedButton14: TSpeedButton;
+    SpeedButton15: TSpeedButton;
+    SpeedButton16: TSpeedButton;
+    SpeedButton17: TSpeedButton;
+    SpeedButton18: TSpeedButton;
+    SpeedButton19: TSpeedButton;
+    SpeedButton20: TSpeedButton;
+    SpeedButton21: TSpeedButton;
+    SpeedButton22: TSpeedButton;
+    SpeedButton23: TSpeedButton;
+    SpeedButton24: TSpeedButton;
+    SpeedButton25: TSpeedButton;
+    SpeedButton26: TSpeedButton;
+    SpeedButton27: TSpeedButton;
+    SpeedButton28: TSpeedButton;
+    SpeedButton29: TSpeedButton;
+    SpeedButton30: TSpeedButton;
+    SpeedButton31: TSpeedButton;
+    SpeedButton32: TSpeedButton;
+    SpeedButton33: TSpeedButton;
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure SpeedButton1Click(Sender: TObject);
+    procedure SpeedButton2Click(Sender: TObject);
+    procedure SpeedButton3Click(Sender: TObject);
+    procedure SpeedButton4Click(Sender: TObject);
+    procedure SpeedButton5Click(Sender: TObject);
+    procedure SpeedButton6Click(Sender: TObject);
+    procedure SpeedButton7Click(Sender: TObject);
+    procedure SpeedButton8Click(Sender: TObject);
+    procedure SpeedButton9Click(Sender: TObject);
+    procedure SpeedButton10Click(Sender: TObject);
+    procedure SpeedButton11Click(Sender: TObject);
+    procedure SpeedButton12Click(Sender: TObject);
+    procedure SpeedButton13Click(Sender: TObject);
+    procedure SpeedButton14Click(Sender: TObject);
+    procedure SpeedButton15Click(Sender: TObject);
+    procedure SpeedButton16Click(Sender: TObject);
+    procedure SpeedButton17Click(Sender: TObject);
+    procedure SpeedButton18Click(Sender: TObject);
+    procedure SpeedButton19Click(Sender: TObject);
+    procedure SpeedButton20Click(Sender: TObject);
+    procedure SpeedButton21Click(Sender: TObject);
+    procedure SpeedButton22Click(Sender: TObject);
+    procedure SpeedButton23Click(Sender: TObject);
+    procedure SpeedButton24Click(Sender: TObject);
+    procedure SpeedButton25Click(Sender: TObject);
+    procedure SpeedButton26Click(Sender: TObject);
+    procedure SpeedButton27Click(Sender: TObject);
+    procedure SpeedButton28Click(Sender: TObject);
+    procedure SpeedButton29Click(Sender: TObject);
+    procedure SpeedButton30Click(Sender: TObject);
+    procedure SpeedButton31Click(Sender: TObject);
+    procedure SpeedButton32Click(Sender: TObject);
+    procedure SpeedButton33Click(Sender: TObject);
+
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit1, Unit2, Unit4, Unit5;
+
+
+
+
+
+
+procedure TForm3.Button1Click(Sender: TObject);
+begin
+zag.Show;
+Form3.Hide;
+end;
+
+
+procedure TForm3.SpeedButton10Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'È.htm');
+end;
+
+procedure TForm3.SpeedButton11Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'É.htm');
+end;
+
+procedure TForm3.SpeedButton12Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ê.htm');
+end;
+
+procedure TForm3.SpeedButton13Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ë.htm');
+end;
+
+procedure TForm3.SpeedButton14Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ì.htm');
+end;
+
+procedure TForm3.SpeedButton15Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Í.htm');
+end;
+
+procedure TForm3.SpeedButton16Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Î.htm');
+end;
+
+procedure TForm3.SpeedButton17Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ï.htm');
+end;
+
+procedure TForm3.SpeedButton18Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ð.htm');
+end;
+
+procedure TForm3.SpeedButton19Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ñ.htm');
+end;
+
+procedure TForm3.SpeedButton1Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'À.htm');
+end;
+
+
+procedure TForm3.SpeedButton20Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ò.htm');
+end;
+
+procedure TForm3.SpeedButton21Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ó.htm');
+end;
+
+procedure TForm3.SpeedButton22Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ô.htm');
+end;
+
+procedure TForm3.SpeedButton23Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Õ.htm');
+end;
+
+procedure TForm3.SpeedButton24Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ö.htm');
+end;
+
+procedure TForm3.SpeedButton25Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'×.htm');
+end;
+
+procedure TForm3.SpeedButton26Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ø.htm');
+end;
+
+procedure TForm3.SpeedButton27Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ù.htm');
+end;
+
+procedure TForm3.SpeedButton28Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ú.htm');
+end;
+
+procedure TForm3.SpeedButton29Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Û.htm');
+end;
+
+procedure TForm3.SpeedButton2Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Á.htm');
+end;
+
+procedure TForm3.SpeedButton30Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ü.htm');
+end;
+
+procedure TForm3.SpeedButton31Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ý.htm');
+end;
+
+procedure TForm3.SpeedButton32Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Þ.htm');
+end;
+
+procedure TForm3.SpeedButton33Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'ß.htm');
+end;
+
+procedure TForm3.SpeedButton3Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Â.htm');
+end;
+
+procedure TForm3.SpeedButton4Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ã.htm');
+end;
+
+procedure TForm3.SpeedButton5Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ä.htm');
+end;
+
+procedure TForm3.SpeedButton6Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Å.htm');
+end;
+
+procedure TForm3.SpeedButton7Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'¨.htm');
+end;
+
+procedure TForm3.SpeedButton8Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Æ.htm');
+end;
+
+procedure TForm3.SpeedButton9Click(Sender: TObject);
+begin
+Form3.Hide;
+ Form4.Show;
+Form4.WebBrowser1.Navigate(extractFilePath(paramstr(0))+'Ç.htm');
+end;
+
+end.

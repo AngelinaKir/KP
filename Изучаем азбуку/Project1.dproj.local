@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.720,=D:\кп\кпп\DBLPIC_.PAS</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.395,D:\кп\кпп\DBLPIC_.PAS=D:\кп\кпп\Unit5.PAS</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.344,D:\кп\кпп\DBLPIC_.PAS=D:\кп\кпп\game1.PAS</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.144,D:\кп\кпп\game2.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.341,D:\кп\кпп\vygruzka.dfm=D:\кп\кпп\Unit4.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.328,=D:\кп\кпп\Unit7.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.119,D:\кп\кпп\Unit1.dfm=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.639,=D:\кп\кпп\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.341,D:\кп\кпп\vygruzka.pas=D:\кп\кпп\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.008,C:\Users\ASUS\Downloads\IdenticalPictures_source\UnitFormMain.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.948,=C:\Users\ASUS\Downloads\IdenticalPictures_source\UnitFormMain.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.430,D:\кп\кпп\zagryzka.pas=D:\кп\кпп\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.428,D:\кп\кпп\Unit13.dfm=D:\кп\кпп\game3.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.411,=D:\кп\кпп\Unit13.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.428,D:\кп\кпп\Unit13.pas=D:\кп\кпп\game3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.236,=D:\кп\кпп\Unit12.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.170,D:\кп\кпп\Unit12.pas=D:\кп\кпп\game2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.697,D:\кп\кпп\glavnaya.dfm=D:\кп\кпп\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.018,=D:\кп\кпп\Unit10.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.087,D:\кп\кпп\Project1.dproj=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.105,D:\кп\кпп\game3.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.668,D:\кп\кпп\pravila.pas=D:\кп\кпп\Unit8.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.668,D:\кп\кпп\pravila.dfm=D:\кп\кпп\Unit8.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.610,D:\кп\кпп\Unit10.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.247,D:\кп\кпп\alfavit.dfm=D:\кп\кпп\Unit3.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.911,=D:\кп\кпп\Unit9.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.119,D:\кп\кпп\Unit1.pas=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.411,D:\кп\кпп\Unit5.dfm=D:\кп\кпп\DBLPIC_.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.572,D:\кп\кпп\avtor.dfm=D:\кп\кпп\Unit7.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.346,D:\кп\кпп\Unit9.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.685,=D:\кп\кпп\Unit9.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.572,D:\кп\кпп\avtor.pas=D:\кп\кпп\Unit7.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.322,=D:\кп\кпп\Unit8.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.789,=D:\кп\кпп\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.411,D:\кп\кпп\Unit5.pas=D:\кп\кпп\DBLPIC_.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.881,D:\кп\кпп\Unit5.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.883,=D:\кп\кпп\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.734,=D:\кп\кпп\Unit11.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.430,D:\кп\кпп\zagryzka.dfm=D:\кп\кпп\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.555,D:\кп\кпп\Unit6.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.828,=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.247,D:\кп\кпп\alfavit.pas=D:\кп\кпп\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.079,D:\кп\кпп\Unit11.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.697,D:\кп\кпп\glavnaya.pas=D:\кп\кпп\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.585,=D:\кп\кпп\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.170,D:\кп\кпп\Unit12.dfm=D:\кп\кпп\game2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.549,=D:\кп\кпп\Unit6.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.395,D:\кп\кпп\DBLPIC_.dfm=D:\кп\кпп\Unit5.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.344,D:\кп\кпп\DBLPIC_.dfm=D:\кп\кпп\game1.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="glavnaya.pas"/>
+    <File Path="glavnaya.dfm"/>
+    <File Path="zagryzka.pas"/>
+    <File Path="zagryzka.dfm"/>
+    <File Path="alfavit.pas"/>
+    <File Path="alfavit.dfm"/>
+    <File Path="vygruzka.pas"/>
+    <File Path="vygruzka.dfm"/>
+    <File Path="avtor.pas"/>
+    <File Path="avtor.dfm"/>
+    <File Path="pravila.pas"/>
+    <File Path="pravila.dfm"/>
+    <File Path="game1.pas"/>
+    <File Path="game1.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
